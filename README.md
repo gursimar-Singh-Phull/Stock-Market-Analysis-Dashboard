@@ -1,4 +1,4 @@
-# Stock-Market-Analysis-Dashboard
+# Stock Market Analysis Dashboard
 This project presents a fully interactive Stock Market Analysis Dashboard developed using Power BI, designed to simulate a real-world fintech analytics environment. The solution processes and analyzes multi-year historical equity data across multiple listed companies, covering hundreds of trading sessions per stock and thousands of daily price observations (Open, High, Low, Close). Through structured time-series modeling and dynamic DAX calculations, the dashboard transforms raw market data into measurable, decision-support intelligence.
 
 The analytical framework incorporates 20-day and 50-day moving averages to evaluate short-term and long-term trend direction, enabling systematic detection of crossover events that signal potential market regime shifts. Daily return percentages are computed across the full dataset to measure price momentum, while a 20-day rolling standard deviation quantifies short-term volatility and risk exposure. These rolling-window calculations update dynamically for each selected symbol and date range, recalculating metrics across hundreds of observations in real time.
